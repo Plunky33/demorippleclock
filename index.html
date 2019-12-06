@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ripple Clock</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:900,300' rel='stylesheet' type='text/css'>
+	<style>
+		body {
+			background-color: #000;
+			margin: 0px;
+			overflow: hidden;
+		}
+
+		#info{
+			position: absolute;
+			bottom: 20px;
+			left: 20px;
+			z-index: 2;
+			font-family: Roboto;
+			font-weight: 300;
+			color: #FFF;
+		}
+
+		a {
+			color: #CCC;
+			text-decoration: none;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="container"></div>
+
+	<div id="info">Ripple Clock by <a href="https://twitter.com/felixturner">@felixturner</a></div>
+
+	<script src="lib/three.min.js"></script>
+	<script src="lib/OrbitControls.js"></script>
+	<script src="lib/TweenLite.min.js"></script>
+	<script src="lib/stats.min.js"></script>
+	<script src="lib/dat.gui.min.js"></script>
+	<script src="lib/ImprovedNoise.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
